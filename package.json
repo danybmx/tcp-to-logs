@@ -1,0 +1,16 @@
+{
+  "name": "tcp-to-logs",
+  "version": "1.0.0",
+  "description": "A simple app that will listen to TCP and write the received data to the stdout",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": "./index.js",
+  "author": "Daniel Rodriguez",
+  "license": "ISC",
+  "repository": "https://github.com/danybmx/tcp-to-logs",
+  "dependencies": {
+    "hexy": "^0.3.4"
+  }
+}
